@@ -8,7 +8,8 @@ myVideo.muted = true;
 
 var peer = new Peer(undefined, {
   path: "/peerjs",
-  host: "/",
+  host: "zoom.ventureramp.com.ng",
+  secure:true,
   port: "3001",
 });
 
