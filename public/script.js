@@ -7,8 +7,9 @@ const myVideo = document.createElement("video");
 myVideo.muted = true;
 
 var peer = new Peer(undefined, {
-  host: "/",
-  port: "3001",
+  host: "143.198.132.243",
+  port: "9000",
+  path: '/'
 });
 
 let myVideoStream;
