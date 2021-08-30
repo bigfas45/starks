@@ -7,8 +7,7 @@ const myVideo = document.createElement("video");
 myVideo.muted = true;
 
 var peer = new Peer(undefined, {
-  host: "zoom.ventureramp.com.ng",
-  secure:true,
+  host: "/",
   port: "3001",
 });
 
